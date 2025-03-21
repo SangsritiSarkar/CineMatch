@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommender System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        select, input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+
+        .movie {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .movie img {
+            width: 100px;
+            height: 150px;
+            margin-right: 20px;
+        }
+
+        .movie .info {
+            flex-grow: 1;
+        }
+
+        .movie h3 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Movie Recommender System</h1>
+    </header>
+    <div class="container">
+        <label for="movieSelect">Select a movie:</label>
+        <select id="movieSelect">
+            <!-- Populate with movie titles from your dataset -->
+            <option value="Movie 1">Movie 1</option>
+            <option value="Movie 2">Movie 2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <p>OR</p>
+        <label for="customMovieInput">Enter a movie title:</label>
+        <input type="text" id="customMovieInput" placeholder="Enter a movie title...">
+        <button id="recommendButton">Recommend</button>
+        <div id="recommendations">
+            <!-- Recommended movies will be displayed here -->
+        </div>
+    </div>
+    <script>
+        document.getElementById("recommendButton").addEventListener("click", function () {
+            // Fetch recommended movies and posters using JavaScript and display them in the #recommendations div.
+            // You can use AJAX or fetch API to make a request to your backend for recommendations.
+        });
+    </script>
+</body>
+</html>
