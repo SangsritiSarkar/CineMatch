@@ -72,6 +72,6 @@ If you have any questions or feedback, feel free to reach out via email at adars
 
 ## Links
 
-- **GitHub Repository:** [Movie Recommender System Repo](https://github.com/Adarsh-Agrahari/Movie-Recommender-System)
+- **GitHub Repository:** [Movie Recommender System Repo]((https://github.com/SangsritiSarkar/CineMatch))
 - **Live Site:** [Movie Recommender System](https://movie-recommender-cinematch.streamlit.app/)
 
