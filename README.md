@@ -29,7 +29,7 @@ The Movie Recommender System is a Python-based application designed to recommend
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Adarsh-Agrahari/Movie-Recommender-System.git
+    git clone https://github.com/SangsritiSarkar/CineMatch.git
     cd Movie-Recommender-System
     ```
 
